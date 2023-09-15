@@ -15,9 +15,9 @@ pipeline {
             }
             post {
                 success {
-                        mail to: "sthiri@deakin.edu.au",
+                        mail to: "smthiri01@gmail.com",
                         subject: "Testing Success",
-                        body: "The testings have ran successfully."
+                        body: "The testings have ran successfully!"
 
                 }
             }
@@ -35,9 +35,9 @@ pipeline {
             }
             post {
                 success {
-                        mail to: "sthiri@deakin.edu.au",
+                        mail to: "smthiri01@gmail.com",
                         subject: "Scan Success",
-                        body: "The security scan has completed successfully."
+                        body: "The security scan has completed successfully!"
 
                 }
             }
